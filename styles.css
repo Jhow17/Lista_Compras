@@ -11,28 +11,28 @@
     --preto: #1C1C1C; /* Preto Nubank */
     --fonte-titulo: "Krona One", sans-serif;
     --fonte-texto: 'Numans', sans-serif;
-    --degrade-azul: linear-gradient(180deg, #820AD1 0%, #f7f7f7 100%); /* Degradê roxo para rosa */
+    --degrade-azul: linear-gradient(180deg, #820AD1 , #d8b0f0 ); /* Degradê roxo para rosa */
 }
-
 body{
     background:var(--degrade-azul);
+    flex: auto;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 main{
-    width:50vw;
+    width:35vw;
     background: var(--neutro);
-    margin-top:4rem;
     display: flex;
     flex-direction: column;
-    gap:2rem;
+    gap:1rem;
     align-items: center;
     background-color: var(--neutro);
-    padding: 3.5rem;
     border-radius: 0.5rem;
+    padding:3rem;
+    margin: 5.7em;
 }
 .lista{
     text-align: left;
